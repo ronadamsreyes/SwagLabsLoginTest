@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLabsLoginTest", "SwagLabsLoginTest\SwagLabsLoginTest.csproj", "{C5D277D1-7770-4B98-B87F-48C8645E97C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5D277D1-7770-4B98-B87F-48C8645E97C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D277D1-7770-4B98-B87F-48C8645E97C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D277D1-7770-4B98-B87F-48C8645E97C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D277D1-7770-4B98-B87F-48C8645E97C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFC9705C-D677-4953-9457-032C1A5025F8}
+	EndGlobalSection
+EndGlobal
