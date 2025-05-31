@@ -1,0 +1,31 @@
+Feature: Swag Labs Login
+  As a registered Swag Labs user
+  I want to login to my account
+  So that I can check, add to cart, & purchase the latest apparel from the shop
+
+ Scenario 1: Successful login with valid credentials
+    Given I navigate to the Swag Labs homepage
+    When I enter a valid username and password
+    And I click the Login button
+    Then I should see the Swag Labs products
+
+
+Scenario 2: Unsuccessful login with invalid credentials
+    Given I navigate to the Swag Labs homepage
+    When I enter an invalid username and password
+    And I click the Login button
+    Then I should see the an error message
+
+Scenario 3: Retry login after error message dismissal
+    Given I navigate to the Swag Labs homepage
+    When I enter an invalid username and password
+    And I click the Login button
+    Then I should see the an error message
+    When I dismiss the error message
+    And I cleared the current values on username and password
+    And I enter a valid username and password
+    And I click the Login button
+    Then I should see the Swag Labs products
+
+
+
